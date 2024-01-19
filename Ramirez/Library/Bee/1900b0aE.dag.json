@@ -19280,7 +19280,7 @@
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 1457350,
-      "PayloadLength": 32847,
+      "PayloadLength": 32919,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
@@ -19292,7 +19292,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1490284,
+      "PayloadOffset": 1490356,
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -19536,8 +19536,10 @@
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll",
+        "Assets/Scripts/CaminadoDireccional.cs",
         "Assets/Scripts/CaminadoSimple.cs",
-        "Assets/Scripts/movCruz.cs",
+        "Assets/Scripts/MovCruz.cs",
+        "Assets/Scripts/RotationM.cs",
         "C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
         "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp"
@@ -19776,7 +19778,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1490380,
+      "PayloadOffset": 1490452,
       "PayloadLength": 9366,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -20860,7 +20862,7 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\sebastian.ixtla\\Documents\\Github\\ProtectosDeNuevo\\Ramirez\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\Users\\sebastian.ixtla\\Documents\\Github\\ProtectosDeNuevo\\Ramirez\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\Users\\sebastian.ixtla\\Documents\\Github\\ProtectosDeNuevo\\Ramirez\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"C:\\Users\\sebastian.ixtla\\Documents\\Github\\ProtectosDeNuevo\\Ramirez\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"C:\\Users\\sebastian.ixtla\\Documents\\Github\\ProtectosDeNuevo\\Ramirez\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"C:\\Users\\sebastian.ixtla\\Documents\\Github\\ProtectosDeNuevo\\Ramirez\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"C:\\Users\\sebastian.ixtla\\Documents\\Github\\ProtectosDeNuevo\\Ramirez\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"C:\\Users\\sebastian.ixtla\\Documents\\Github\\ProtectosDeNuevo\\Ramirez\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\Users\\sebastian.ixtla\\Documents\\Github\\ProtectosDeNuevo\\Ramirez\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"C:\\Users\\sebastian.ixtla\\Documents\\Github\\ProtectosDeNuevo\\Ramirez\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.4\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"C:\\Users\\sebastian.ixtla\\Documents\\Github\\ProtectosDeNuevo\\Ramirez\\Library\\PackageCache\\com.unity.visualscripting@1.9.1\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Users\\sebastian.ixtla\\Documents\\Github\\ProtectosDeNuevo\\Ramirez\\Library\\ScriptAssemblies\" -s=\"C:\\Users\\sebastian.ixtla\\Documents\\Github\\ProtectosDeNuevo\\Ramirez\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"C:\\Users\\sebastian.ixtla\\Documents\\Github\\ProtectosDeNuevo\\Ramirez\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.4\\lib\\ReportGenerator\" -s=\"C:\\Users\\sebastian.ixtla\\Documents\\Github\\ProtectosDeNuevo\\Ramirez\\Library\\PackageCache\\com.unity.visualscripting@1.9.1\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\sebastian.ixtla\\Documents\\GitHub\\ProtectosDeNuevo\\Ramirez\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\Users\\sebastian.ixtla\\Documents\\GitHub\\ProtectosDeNuevo\\Ramirez\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\Users\\sebastian.ixtla\\Documents\\GitHub\\ProtectosDeNuevo\\Ramirez\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"C:\\Users\\sebastian.ixtla\\Documents\\GitHub\\ProtectosDeNuevo\\Ramirez\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"C:\\Users\\sebastian.ixtla\\Documents\\GitHub\\ProtectosDeNuevo\\Ramirez\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"C:\\Users\\sebastian.ixtla\\Documents\\GitHub\\ProtectosDeNuevo\\Ramirez\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"C:\\Users\\sebastian.ixtla\\Documents\\GitHub\\ProtectosDeNuevo\\Ramirez\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"C:\\Users\\sebastian.ixtla\\Documents\\GitHub\\ProtectosDeNuevo\\Ramirez\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\Users\\sebastian.ixtla\\Documents\\GitHub\\ProtectosDeNuevo\\Ramirez\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"C:\\Users\\sebastian.ixtla\\Documents\\GitHub\\ProtectosDeNuevo\\Ramirez\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.4\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"C:\\Users\\sebastian.ixtla\\Documents\\GitHub\\ProtectosDeNuevo\\Ramirez\\Library\\PackageCache\\com.unity.visualscripting@1.9.1\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Users\\sebastian.ixtla\\Documents\\GitHub\\ProtectosDeNuevo\\Ramirez\\Library\\ScriptAssemblies\" -s=\"C:\\Users\\sebastian.ixtla\\Documents\\GitHub\\ProtectosDeNuevo\\Ramirez\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"C:\\Users\\sebastian.ixtla\\Documents\\GitHub\\ProtectosDeNuevo\\Ramirez\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.4\\lib\\ReportGenerator\" -s=\"C:\\Users\\sebastian.ixtla\\Documents\\GitHub\\ProtectosDeNuevo\\Ramirez\\Library\\PackageCache\\com.unity.visualscripting@1.9.1\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -21146,6 +21148,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/1900b0aE.dag.json",
-  "PayloadsFile": "C:/Users/sebastian.ixtla/Documents/Github/ProtectosDeNuevo/Ramirez/Library/Bee/1900b0aE.dag.payloads",
+  "PayloadsFile": "C:/Users/sebastian.ixtla/Documents/GitHub/ProtectosDeNuevo/Ramirez/Library/Bee/1900b0aE.dag.payloads",
   "RelativePathToRoot": "../.."
 }

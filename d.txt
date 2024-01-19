@@ -1,0 +1,6 @@
+Expo
+Mecanica central
+Caracteristicas Fundamentales
+Mostrar 3 juegos de ejemplos iconicos
+Explicar brevemente 10 mecanicas base
+Duracion 5 a no se minutos

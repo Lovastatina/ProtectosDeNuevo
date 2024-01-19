@@ -17,6 +17,7 @@ public class movCruz : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+      
         float movV = Input.GetAxis("Vertical");
         float movH = Input.GetAxis("Horizontal");
 
@@ -24,6 +25,11 @@ public class movCruz : MonoBehaviour
         miAnimator.SetFloat("DESP_LATERAL", movH);
 
         miCorpo.velocity = (transform.forward * movV + transform.right * movH) * velCam;
+
+        if (Input.GetKeyDown(KeyCode.V))
+        {
+            miAnimator.SetTrigger("GNG");
+        }
 
     }
 }
