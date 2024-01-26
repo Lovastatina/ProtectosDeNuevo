@@ -147,7 +147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velCam: 6
   nonzo: 0.35
---- !u!95 &744074494
+--- !u!95 &744074499
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -484,7 +484,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6152039590842779448, guid: ab77e14af31411e47a5194b65a5cb385, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.9
+      value: 22.25
       objectReference: {fileID: 0}
     - target: {fileID: 6152039590842779448, guid: ab77e14af31411e47a5194b65a5cb385, type: 3}
       propertyPath: m_LocalPosition.y
@@ -567,7 +567,7 @@ PrefabInstance:
       addedObject: {fileID: 744074493}
     - targetCorrespondingSourceObject: {fileID: 6785728116978523522, guid: ab77e14af31411e47a5194b65a5cb385, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 744074494}
+      addedObject: {fileID: 744074499}
   m_SourcePrefab: {fileID: 100100000, guid: ab77e14af31411e47a5194b65a5cb385, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
