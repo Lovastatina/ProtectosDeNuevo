@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8763929946724137892}
+  - component: {fileID: 1597189179435508217}
   m_Layer: 0
   m_Name: OtroCoso
   m_TagString: Untagged
@@ -35,6 +36,27 @@ Transform:
   - {fileID: 4429552314865070194}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1597189179435508217
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7222973006149278730}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 34.23548, y: 2.087841, z: 54.5008}
+  m_Center: {x: -32.446125, y: 11.168259, z: 12.48798}
 --- !u!1001 &50162674525673852
 PrefabInstance:
   m_ObjectHideFlags: 0
