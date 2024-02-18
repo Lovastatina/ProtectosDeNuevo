@@ -24,7 +24,7 @@ public class CaminadoDireccional : MonoBehaviour
         float movV = Input.GetAxis("Vertical");
         float movH = Input.GetAxis("Horizontal");
 
-         Vector3 direccion = new Vector3(movH, 0, movV);
+          Vector3 direccion = new Vector3(movH, 0, movV);
         miAnimator.SetBool("Cam", direccion.magnitude > 0);
 
         if (direccion.magnitude > 0)

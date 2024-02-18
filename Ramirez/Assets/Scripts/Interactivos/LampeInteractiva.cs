@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class LampeInteractiva : ObjInteractivoGenerico
 {
-    public Light Lampe;
-    private bool luz = false;
+   public Light Lampe;
+   private bool luz = false;
    public override void ActivareAzione()
     {
         if (luz == false)
