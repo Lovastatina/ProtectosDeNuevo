@@ -30,5 +30,10 @@ public class CaminadoSimple : MonoBehaviour
             miCorpo.velocity = new Vector3(0, 0, 0);
             miAnimador.SetBool("Cam", false);
         }
+
+        if (Input.GetKeyDown(KeyCode.V))
+        {
+            miAnimador.SetTrigger("GNG");
+        }
     }
 }

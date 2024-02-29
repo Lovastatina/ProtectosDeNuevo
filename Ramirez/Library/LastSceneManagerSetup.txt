@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/No 1.unity
+- path: Assets/Scenes/Espada.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
