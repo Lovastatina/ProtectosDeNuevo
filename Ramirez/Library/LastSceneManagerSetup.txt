@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Espada.unity
+- path: Assets/Scenes/Citta.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
