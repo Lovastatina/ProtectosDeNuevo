@@ -6,6 +6,7 @@ using UnityEngine;
 [ExecuteInEditMode]
 public class ColocadorNPC : MonoBehaviour
 {
+  
     private GameObject[] puntoSpaw;
     private void Awake()
     {
@@ -39,6 +40,8 @@ public class ColocadorNPC : MonoBehaviour
         print("Se generó un nuevo NPC" + npc.name);
         GameObject puntoAlt = puntoSpaw[Random.Range(0, puntoSpaw.Length)];
         npc.transform.position = puntoAlt.transform.position;
+
+       
     }
 
     void Start()
